@@ -8,7 +8,7 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, blue)
-ellipse = EllipseAsset(25, 25, thinline, red)
+ellipse = EllipseAsset(50, 25, thinline, red)
 
 Sprite(rectangle)
 Sprite(rectangle, (200, 50))
