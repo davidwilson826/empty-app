@@ -8,10 +8,12 @@ black = Color(0x000000, 1.0)
 
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, blue)
+ellipse = EllipseAsset(25, 25, thinline, red)
 
 Sprite(rectangle)
 Sprite(rectangle, (200, 50))
 Sprite(rectangle, (225, 50))
+Sprite(ellipse, (300, 100))
 
 myapp = App()
 myapp.run()
