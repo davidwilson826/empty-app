@@ -9,7 +9,7 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
 rectangle = RectangleAsset(50, 20, thinline, blue)
 ellipse = EllipseAsset(50, 30, thinline, blue)
-polygon = PolygonAsset([(250, 85), (250, 115), (350, 115), (350, 85)], thinline, red)
+polygon = PolygonAsset([(250, 70), (250, 130), (350, 130), (350, 70)], thinline, red)
 
 Sprite(rectangle)
 Sprite(rectangle, (200, 50))
