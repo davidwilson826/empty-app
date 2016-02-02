@@ -13,7 +13,7 @@ mycircle2 = CircleAsset(5, thinline, red)
 
 # Generate a list of sprites that form a line!
 sprites = [Sprite(mycircle, (x, x*0.5 + 100)) for x in range(100, 600, 10)]
-sprites2 = [Sprite(mycircle2, (x, x*2 + 100)) for x in range(100, 600, 10)]
+sprites2 = [Sprite(mycircle2, (x, x*2 - 50)) for x in range(100, 600, 10)]
 
 myapp = App()
 myapp.run()
